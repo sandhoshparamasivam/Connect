@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "206282541260",
+    "firebase_url": "https://connect-app-95d2e.firebaseio.com",
+    "project_id": "connect-app-95d2e",
+    "storage_bucket": "connect-app-95d2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:206282541260:android:fe430bb8ae4664afac9a69",
+        "android_client_info": {
+          "package_name": "com.orane.icliniqconnect"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "206282541260-ld6sbgnn9vjmnfi7bdii1fihl4v2dnu1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAc7JlGWkgGn07PTf3nbeicAjD6HfPi-iQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "206282541260-ld6sbgnn9vjmnfi7bdii1fihl4v2dnu1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

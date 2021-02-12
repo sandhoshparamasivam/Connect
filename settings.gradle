@@ -1,0 +1,4 @@
+include ':app'
+rootProject.name = "Connect"
+include ':commonlib'
+include ':mobilertc'
