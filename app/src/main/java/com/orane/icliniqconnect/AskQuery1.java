@@ -677,8 +677,20 @@ public class AskQuery1 extends AppCompatActivity implements View.OnClickListener
                                         Model.mFirebaseAnalytics.logEvent("AskQuery1_Post_Query", params);
                                         //------------ Google firebase Analitics--------------------
 
-                                    } else
-                                        edt_query.setError("Please enter your query");
+                                    } else{
+                                         final MaterialDialog alert = new MaterialDialog(AskQuery1.this);
+                                            alert.setTitle("Invalid Query");
+                                            alert.setMessage("Please Enter minimum 160 Character's");
+                                            alert.setCanceledOnTouchOutside(false);
+                                            alert.setPositiveButton("ok", new View.OnClickListener() {
+                                                @Override
+                                                public void onClick(View v) {
+                                                alert.dismiss();
+                                                  }
+                                            });
+
+                                            alert.show();
+                                        }
 
                                 } catch (Exception e) {
                                     e.printStackTrace();
