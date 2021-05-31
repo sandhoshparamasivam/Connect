@@ -321,7 +321,7 @@ public class WebViewActivity_Persona extends BaseActivity implements ObservableS
 
         protected void onPostExecute(Boolean result) {
 
-            dialog.cancel();
+              dialog.dismiss();
             Model.query_launch = "Askquery2";
 
             try {

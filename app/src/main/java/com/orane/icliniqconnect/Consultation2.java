@@ -675,7 +675,7 @@ public class Consultation2 extends AppCompatActivity implements
                     startActivityForResult(intent, 1);
                     overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
 
             } catch (Exception e) {
@@ -790,7 +790,7 @@ public class Consultation2 extends AppCompatActivity implements
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
 
         }
     }

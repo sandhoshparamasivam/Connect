@@ -354,7 +354,7 @@ public class ExpandableActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -398,7 +398,7 @@ public class ExpandableActivity extends AppCompatActivity {
                         @Override
                         public void onDownloadComplete() {
 
-                            dialog.cancel();
+                              dialog.dismiss();
 
                             File imgFile = new File(dirPath + "/" + "filename." + extension);
                             System.out.println("imgFile--------------" + imgFile.toString());

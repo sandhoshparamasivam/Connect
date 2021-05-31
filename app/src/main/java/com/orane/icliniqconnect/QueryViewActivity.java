@@ -586,7 +586,7 @@ public class QueryViewActivity extends BaseActivity implements ObservableScrollV
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -2085,7 +2085,7 @@ public class QueryViewActivity extends BaseActivity implements ObservableScrollV
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -2153,7 +2153,7 @@ public class QueryViewActivity extends BaseActivity implements ObservableScrollV
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
 
     }
@@ -2226,8 +2226,7 @@ public class QueryViewActivity extends BaseActivity implements ObservableScrollV
             } else
             {
                 final MaterialDialog alert = new MaterialDialog(QueryViewActivity.this);
-                alert.setTitle("Invalid Query");
-                alert.setMessage("Please Enter minimum 160 Character's");
+                alert.setMessage("Please enter the query atleast 160 characters");
                 alert.setCanceledOnTouchOutside(false);
                 alert.setPositiveButton("ok", new View.OnClickListener() {
                     @Override

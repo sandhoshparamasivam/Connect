@@ -258,7 +258,7 @@ public class Offers_view extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+            dialog.dismiss();
         }
     }
 
@@ -318,7 +318,7 @@ public class Offers_view extends AppCompatActivity {
 
         protected void onPostExecute(Boolean result) {
 
-            dialog.cancel();
+              dialog.dismiss();
 
             System.out.println("jsonobj_prepinv--------" + jsonobj_prepinv.toString());
 

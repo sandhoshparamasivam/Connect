@@ -619,7 +619,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -722,7 +722,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
                     }
                 }
 
-                dialog.cancel();
+                  dialog.dismiss();
 
 
             } catch (Exception e) {
@@ -1177,7 +1177,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
 
         protected void onPostExecute(Boolean result) {
 
-            dialog.cancel();
+              dialog.dismiss();
             Model.query_launch = "Askquery2";
 
             try {
@@ -1380,7 +1380,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
 
             apply_relaships_radio(family_list);
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -4040,7 +4040,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
 
                 apply_relaships_radio(family_list);
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -4128,7 +4128,7 @@ public class Instant_Chat extends AppCompatActivity implements View.OnClickListe
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
 
     }

@@ -1076,7 +1076,7 @@ public class FamilyProfileListActivity extends AppCompatActivity implements Obse
 
                 //ask_someone("edit");
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -3335,7 +3335,7 @@ public class FamilyProfileListActivity extends AppCompatActivity implements Obse
 
                 full_process();
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

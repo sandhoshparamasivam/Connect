@@ -681,7 +681,7 @@ public class Thyrocare_Fragment extends Fragment implements ObservableScrollView
 
                 System.out.println("count-------------" + count);
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

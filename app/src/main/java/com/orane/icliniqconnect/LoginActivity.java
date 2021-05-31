@@ -485,7 +485,7 @@ public class LoginActivity extends Activity {
                 e.printStackTrace();
             }
 
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }

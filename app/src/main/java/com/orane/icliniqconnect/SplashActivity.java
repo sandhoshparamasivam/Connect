@@ -313,7 +313,7 @@ public class SplashActivity extends FragmentActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }

@@ -211,7 +211,7 @@ public class Agencies_List_Activity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 }

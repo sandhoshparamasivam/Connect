@@ -742,7 +742,7 @@ public class DoctorProfileActivity extends AppCompatActivity {
                     startActivityForResult(intent, 1);
                     overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
 
             } catch (Exception e) {

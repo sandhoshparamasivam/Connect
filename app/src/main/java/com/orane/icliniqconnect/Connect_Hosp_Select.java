@@ -374,7 +374,7 @@ public class Connect_Hosp_Select extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }

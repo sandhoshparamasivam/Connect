@@ -398,7 +398,7 @@ public class SubscriptionPackActivity extends AppCompatActivity implements View.
 
                     overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
-                    dialog.cancel();
+                      dialog.dismiss();
 
                 }
 

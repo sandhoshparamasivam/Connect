@@ -227,7 +227,7 @@ public class Labtest_CartViewActivity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -503,7 +503,7 @@ public class Labtest_CartViewActivity extends AppCompatActivity {
                 }
 
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

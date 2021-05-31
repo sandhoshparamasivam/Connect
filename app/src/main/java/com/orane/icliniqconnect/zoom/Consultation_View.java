@@ -618,7 +618,7 @@ public class Consultation_View extends AppCompatActivity implements Constants, Z
                 }
 
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -795,7 +795,7 @@ public class Consultation_View extends AppCompatActivity implements Constants, Z
 
                     full_layout.setVisibility(View.VISIBLE);
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1056,7 +1056,7 @@ public class Consultation_View extends AppCompatActivity implements Constants, Z
             } catch (Exception e) {
                 System.out.println("Call Error....." + e.toString());
             }
-            dialog.cancel();
+              dialog.dismiss();
 
         }
     }

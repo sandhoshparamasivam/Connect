@@ -241,7 +241,7 @@ public class Referal_Activity extends AppCompatActivity {
             }
 
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 

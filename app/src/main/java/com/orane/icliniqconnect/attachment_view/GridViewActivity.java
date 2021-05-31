@@ -368,7 +368,7 @@ public class GridViewActivity extends AppCompatActivity {
                         @Override
                         public void onDownloadComplete() {
 
-                            dialog.cancel();
+                              dialog.dismiss();
 
                             File imgFile = new File(dirPath + "/" + "filename." + extension);
                             System.out.println("imgFile--------------" + imgFile.toString());

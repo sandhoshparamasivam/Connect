@@ -597,7 +597,7 @@ public class SettingsFragment extends Fragment {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
 
         }
     }
@@ -641,7 +641,7 @@ public class SettingsFragment extends Fragment {
             try {
                 System.out.println("logout_jsonobj---------------" + logout_jsonobj.toString());
 
-                dialog.cancel();
+                  dialog.dismiss();
 
                 getActivity().finishAffinity();
                 Intent intent = new Intent(getActivity(), LoginActivity.class);

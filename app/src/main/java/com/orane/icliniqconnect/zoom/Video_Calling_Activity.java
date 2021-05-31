@@ -701,7 +701,7 @@ public class Video_Calling_Activity extends AppCompatActivity implements Constan
 
                     Picasso.with(getApplicationContext()).load(doc_url).placeholder(R.mipmap.doctor_icon).error(R.mipmap.logo).into(imageview_poster);
 
-                    //dialog.cancel();
+                    //  dialog.dismiss();
                     //----------------- Kissmetrics ----------------------------------
                     Model.kiss = KISSmetricsAPI.sharedAPI(Model.kissmetric_apikey, getApplicationContext());
                     Model.kiss.record("android.patient.Video_Calling_Screen");

@@ -535,7 +535,7 @@ public class AskQuery2 extends AppCompatActivity {
 
         protected void onPostExecute(Boolean result) {
 
-            dialog.cancel();
+              dialog.dismiss();
             Model.query_launch = "Askquery2";
 
             try {
@@ -897,7 +897,7 @@ public class AskQuery2 extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -1268,7 +1268,7 @@ public class AskQuery2 extends AppCompatActivity {
                 }
 
 
-                dialog.cancel();
+                  dialog.dismiss();
             } catch (Exception e) {
                 e.printStackTrace();
             }
@@ -1540,7 +1540,7 @@ public class AskQuery2 extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 

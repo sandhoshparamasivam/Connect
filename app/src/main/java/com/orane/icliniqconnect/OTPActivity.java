@@ -540,7 +540,7 @@ public class OTPActivity extends AppCompatActivity {
 
                 getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1113,7 +1113,7 @@ public class OTPActivity extends AppCompatActivity {
                 country = "";
                 e.printStackTrace();
             }
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }
@@ -1206,7 +1206,7 @@ public class OTPActivity extends AppCompatActivity {
                 }
                 //---------- Start Timer -------------------------------
 
-                //dialog.cancel();
+                //  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

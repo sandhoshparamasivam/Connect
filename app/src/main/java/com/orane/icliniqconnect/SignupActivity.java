@@ -1190,7 +1190,7 @@ public class SignupActivity extends AppCompatActivity {
             }
 
             scrollview.setVisibility(View.VISIBLE);
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }
@@ -1287,7 +1287,7 @@ public class SignupActivity extends AppCompatActivity {
 
                 getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1480,7 +1480,7 @@ public class SignupActivity extends AppCompatActivity {
                     }
                 }
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1525,7 +1525,7 @@ public class SignupActivity extends AppCompatActivity {
 
                 pin_val = jsonobj.getString("pin");
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

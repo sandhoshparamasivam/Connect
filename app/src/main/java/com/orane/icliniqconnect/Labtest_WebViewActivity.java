@@ -412,7 +412,7 @@ public class Labtest_WebViewActivity extends BaseActivity implements ObservableS
             }
 
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -520,7 +520,7 @@ public class Labtest_WebViewActivity extends BaseActivity implements ObservableS
                     tv_cart_count.setVisibility(View.GONE);
                 }
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

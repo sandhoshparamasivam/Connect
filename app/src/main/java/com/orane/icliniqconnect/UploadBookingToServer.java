@@ -99,7 +99,7 @@ public class UploadBookingToServer extends Activity {
 
         protected void onPostExecute(Boolean result) {
 
-            //dialog.cancel();
+            //  dialog.dismiss();
             finish();
 
         }

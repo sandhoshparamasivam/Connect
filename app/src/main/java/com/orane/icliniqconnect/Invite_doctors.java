@@ -291,7 +291,7 @@ public class Invite_doctors extends AppCompatActivity {
                     }
                 }
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

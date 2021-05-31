@@ -219,7 +219,7 @@ public class Offers_List_activity extends AppCompatActivity {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 

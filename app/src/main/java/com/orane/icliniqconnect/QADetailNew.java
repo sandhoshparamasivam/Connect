@@ -351,7 +351,7 @@ public class QADetailNew extends BaseActivity implements ObservableScrollViewCal
         }
 
         protected void onPostExecute(Boolean result) {
-            //dialog.cancel();
+            //  dialog.dismiss();
 
             reccom_myLayout.removeAllViews();
             myLayout.removeAllViews();

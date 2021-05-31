@@ -1154,7 +1154,7 @@ public class HomeFragment extends Fragment {
             try {
                 System.out.println("logout_jsonobj---------------" + logout_jsonobj.toString());
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1230,7 +1230,7 @@ public class HomeFragment extends Fragment {
                     }
                 }
 
-                // dialog.cancel();
+                //   dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1342,7 +1342,7 @@ public class HomeFragment extends Fragment {
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 }

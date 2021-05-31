@@ -560,7 +560,7 @@ public class Connect_hosp_list extends AppCompatActivity {
             } catch (Exception e) {
                 e.printStackTrace();
             }
-            //dialog.cancel();
+            //  dialog.dismiss();
 
         }
     }

@@ -1735,7 +1735,7 @@ public class Ask_FamilyProfile extends AppCompatActivity {
                 img_uparrow.setVisibility(View.GONE);
                 //-------- View --------------------------------------
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
@@ -1871,7 +1871,7 @@ public class Ask_FamilyProfile extends AppCompatActivity {
                     startActivityForResult(intent, 1);
 
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
 
             } catch (Exception e) {

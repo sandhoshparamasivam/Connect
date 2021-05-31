@@ -199,7 +199,7 @@ public class TestListActivity extends AppCompatActivity {
                 listView.setTextFilterEnabled(true);
                 //-------------------------------------------------------------------
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

@@ -1960,7 +1960,7 @@ public class Doc_Consultation1 extends AppCompatActivity implements
 //
 //             Log.e("timeslot",timeslot.toString()+"  ");
 //
-//                dialog.cancel();
+//                  dialog.dismiss();
 //            }
 //        }
 
@@ -2252,7 +2252,7 @@ public class Doc_Consultation1 extends AppCompatActivity implements
                     startActivityForResult(intent, 1);
                     overridePendingTransition(R.anim.pull_in_right, R.anim.push_out_left);
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
 
             } catch (Exception e) {
@@ -2371,7 +2371,7 @@ public class Doc_Consultation1 extends AppCompatActivity implements
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -2550,7 +2550,7 @@ public class Doc_Consultation1 extends AppCompatActivity implements
 
             apply_relaships_radio(family_list);
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 
@@ -3013,7 +3013,7 @@ public class Doc_Consultation1 extends AppCompatActivity implements
                 e.printStackTrace();
             }
 
-            dialog.cancel();
+              dialog.dismiss();
         }
     }
 

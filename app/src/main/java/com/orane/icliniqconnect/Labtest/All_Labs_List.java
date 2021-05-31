@@ -718,7 +718,7 @@ public class All_Labs_List extends Fragment implements ObservableScrollViewCallb
 
                 System.out.println("count-------------" + count);
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

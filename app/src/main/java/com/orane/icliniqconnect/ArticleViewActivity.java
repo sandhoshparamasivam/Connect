@@ -766,7 +766,7 @@ public class ArticleViewActivity extends BaseActivity implements ObservableScrol
              *
              * */
 
-            dialog.cancel();
+              dialog.dismiss();
 
         }
     }

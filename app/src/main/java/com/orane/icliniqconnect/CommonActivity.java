@@ -915,7 +915,7 @@ public class CommonActivity extends AppCompatActivity {
                     }
                 }
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();

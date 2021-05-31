@@ -339,7 +339,7 @@ public class CenterFabActivity extends AppCompatActivity {
                         try {
                             Intent intent = new Intent(CenterFabActivity.this, AskQuery1.class);
                             startActivity(intent);
-                            dialog.cancel();
+                              dialog.dismiss();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -363,7 +363,7 @@ public class CenterFabActivity extends AppCompatActivity {
                             params.putString("User", Model.id + Model.first_time);
                             Model.mFirebaseAnalytics.logEvent("Health_Tools", params);
                             //------------ Google firebase Analitics--------------------
-                            dialog.cancel();
+                              dialog.dismiss();
 
                         } catch (Exception e) {
                             e.printStackTrace();
@@ -377,7 +377,7 @@ public class CenterFabActivity extends AppCompatActivity {
                         try {
                             Intent intent = new Intent(CenterFabActivity.this, Labtest_tabs_Activity.class);
                             startActivity(intent);
-                            dialog.cancel();
+                              dialog.dismiss();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -391,7 +391,7 @@ public class CenterFabActivity extends AppCompatActivity {
                         try {
                             Intent intent = new Intent(CenterFabActivity.this, Instant_Chat.class);
                             startActivity(intent);
-                            dialog.cancel();
+                              dialog.dismiss();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }
@@ -404,7 +404,7 @@ public class CenterFabActivity extends AppCompatActivity {
                         try {
                             Intent intent = new Intent(CenterFabActivity.this, Consultation_Home.class);
                             startActivity(intent);
-                            dialog.cancel();
+                              dialog.dismiss();
                         } catch (Exception e) {
                             e.printStackTrace();
                         }

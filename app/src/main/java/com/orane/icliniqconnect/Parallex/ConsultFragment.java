@@ -347,8 +347,7 @@ public class ConsultFragment extends ScrollViewFragment {
 
     private void alertBoxMethod() {
         final MaterialDialog alert = new MaterialDialog(getActivity());
-        alert.setTitle("Invalid Query");
-        alert.setMessage("Please Enter minimum 160 Character's");
+        alert.setMessage("Please enter the query atleast 160 characters");
         alert.setCanceledOnTouchOutside(false);
         alert.setPositiveButton("ok", new View.OnClickListener() {
             @Override
@@ -524,7 +523,7 @@ public class ConsultFragment extends ScrollViewFragment {
                     startActivityForResult(intent, 1);
 
 
-                    dialog.cancel();
+                      dialog.dismiss();
                 }
 
             } catch (Exception e) {

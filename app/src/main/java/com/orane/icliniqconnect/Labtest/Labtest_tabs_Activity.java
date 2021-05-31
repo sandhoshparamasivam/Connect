@@ -341,7 +341,7 @@ public class Labtest_tabs_Activity extends AppCompatActivity {
                 }
 
 
-                dialog.cancel();
+                  dialog.dismiss();
 
             } catch (Exception e) {
                 e.printStackTrace();
